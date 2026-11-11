@@ -14,6 +14,9 @@ Mục tiêu của bộ tài liệu: laptop cắm vào switch chỉ được vào
 | [Huong-dan-ClearPass-6.14-Source-Service-Enforcement.md](Huong-dan-ClearPass-6.14-Source-Service-Enforcement.md) | Tham chiếu tham số theo tài liệu ClearPass 6.14: Authentication Source AD, Network Device, Endpoint, Service 802.1X Wired, Enforcement Policy. Dùng để tra cứu từng trường. |
 | [Huong-dan-cai-dat-Aruba-ClearPass-6.12-tren-Proxmox-VE.md](Huong-dan-cai-dat-Aruba-ClearPass-6.12-tren-Proxmox-VE.md) | Cài đặt ClearPass 6.12 trên Proxmox VE 8.3.4 bằng KVM RAW image (chỉ dùng cho lab, không được hãng hỗ trợ chính thức). |
 | [Installing Aruba ClearPass 6.12 on Proxmox VE.pdf](<Installing Aruba ClearPass 6.12 on Proxmox VE.pdf>) | Tài liệu gốc (tiếng Anh) của Kevin Zhu, HPE Aruba, làm nguồn cho hướng dẫn cài đặt. |
+| [HPE_sd00007218en_us_ClearPass Policy Manager 6.14 Online Help.pdf](<HPE_sd00007218en_us_ClearPass Policy Manager 6.14 Online Help.pdf>) | Tài liệu gốc HPE: ClearPass 6.14 Online Help (bản mới nhất, nguồn chính của các hướng dẫn). |
+| [HPE_sd00007000en_us_ClearPass Policy Manager 6.11 Online Help.pdf](<HPE_sd00007000en_us_ClearPass Policy Manager 6.11 Online Help.pdf>) | Tài liệu gốc HPE: ClearPass 6.11 Online Help (dùng để so sánh, nguồn ảnh join AD). |
+| [HPE_sd00007984en_us_HPE Networking ClearPass 6.14 Installation Guide.pdf](<HPE_sd00007984en_us_HPE Networking ClearPass 6.14 Installation Guide.pdf>) | Tài liệu gốc HPE: ClearPass 6.14 Installation Guide. |
 | [images/](images/) | Ảnh minh họa dùng trong các hướng dẫn: `ad-join/` (join AD, ClearPass 6.11), `clearpass-614/` (ClearPass 6.14), `switch-sg350/` (Cisco SG350). |
 
 ## Thứ tự đọc gợi ý
@@ -30,4 +33,4 @@ Mục tiêu của bộ tài liệu: laptop cắm vào switch chỉ được vào
 - Các mục đánh dấu **⚠ Cần xác nhận** hoặc **[Đề xuất, cần thử]** là phần chưa kiểm chứng với tài liệu chính thức, cần thử trên lab.
 - Nên thử trên lab hoặc một switch pilot trước khi triển khai thật.
 - Ảnh và tài liệu gốc thuộc bản quyền của HPE, Cisco, Dell và tác giả. Chỉ dùng làm tài liệu nội bộ.
-- Các file PDF của HPE (ClearPass 6.11 và 6.14 Online Help, Installation Guide) và danh sách thiết bị `SW-Wireless.xlsx` **không đưa lên repo**, chỉ giữ ở máy.
+- Danh sách thiết bị `SW-Wireless.xlsx` **không đưa lên repo**, chỉ giữ ở máy.
